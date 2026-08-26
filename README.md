@@ -19,7 +19,7 @@ A documentação está organizada de acordo com a ordem do ciclo de testes
 | 05- Relatório de bugs | Documentação detalhada dos defeitos identificados  |
 | 06- Relatório de resumo dos testes | Consolidação e análise dos resultados do ciclo  |
 
-**3\. Resultados do ciclo de testes**
+##3\. Resultados do ciclo de testes
 
 | Métrica | Resultado |
 | :---- | :---- |
