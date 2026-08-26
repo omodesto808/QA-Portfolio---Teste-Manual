@@ -10,7 +10,7 @@ O objetivo é demonstrar a aplicação prática de conceitos de Quality Assuranc
 
 A documentação está organizada de acordo com a ordem do ciclo de testes
 
-| *Pasta* | Conteúdo |
+| *Documento* | Conteúdo |
 | :---- | :---- |
 | 01- Plano de teste | Planejamento, escopo, estratégia, ambiente e critérios de teste  |
 | 02- Casos de teste | 25 casos de teste detalhados, com pré-condições, dados de teste, passos, resultado esperado, prioridade e tipo de teste.  |
