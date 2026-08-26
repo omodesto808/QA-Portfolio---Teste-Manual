@@ -13,10 +13,10 @@ A documentação está organizada de acordo com a ordem do ciclo de testes
 | *Documento* | Conteúdo |
 | :---- | :---- |
 | 01- Plano de teste | Planejamento, escopo, estratégia, ambiente e critérios de teste  |
-| 02- Casos de teste | 25 casos de teste detalhados, com pré-condições, dados de teste, passos, resultado esperado, prioridade e tipo de teste.  |
-| 03- Relatório de execução | Matriz de execução, resultados e evidências  |
-| 04- Relatório de bugs | Documentação detalhada dos defeitos identificados  |
-| 05- Evidências | Evidências coletadas durante a execução  |
+| 02- Log de teste exploratório | Documentação do processo de exploração e elaboração dos casos de teste  
+| 03- Casos de teste | 25 casos de teste detalhados, com pré-condições, dados de teste, passos, resultado esperado, prioridade e tipo de teste.  |
+| 04- Relatório de execução | Matriz de execução, resultados e evidências  |
+| 05- Relatório de bugs | Documentação detalhada dos defeitos identificados  |
 | 06- Relatório de resumo dos testes | Consolidação e análise dos resultados do ciclo  |
 
 **3\. Resultados do ciclo de testes**
