@@ -30,12 +30,18 @@ A documentação está organizada de acordo com a ordem do ciclo de testes
 | Não executado | **0** |
 | Execução | **100%** |
 
-**4\. Técnicas e abordagens usadas**
+## 4. Técnicas e abordagens usadas
 
-\*Testes Manuais, Testes Funcionais, Testes Positivos e Negativos, Testes Exploratórios  
-\*Elaboração de Casos de Teste, Execução de Testes  
-\*Identificação e Documentação de Bugs  
-\*Priorização de Testes, Rastreabilidade, Análise de Resultados
+- Testes Manuais
+- Testes Funcionais
+- Testes Positivos e Negativos
+- Testes Exploratórios
+- Elaboração de Casos de Teste
+- Execução de Testes
+- Identificação e Documentação de Bugs
+- Priorização de Testes
+- Rastreabilidade
+- Análise de Resultados
 
 ## **5\. Status do projeto**
 
