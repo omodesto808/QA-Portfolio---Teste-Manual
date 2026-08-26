@@ -6,7 +6,7 @@ Este projeto apresenta um ciclo completo de testes manuais aplicado a uma aplica
 
 O objetivo é demonstrar a aplicação prática de conceitos de Quality Assurance, desde o planejamento e exploração da aplicação até a elaboração, execução e análise dos testes, incluindo a identificação e documentação de defeitos.
 
-##2\. Navegação**
+## 2. Navegação
 
 A documentação está organizada de acordo com a ordem do ciclo de testes
 
