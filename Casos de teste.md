@@ -248,7 +248,7 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | **Tipo de Cenário** | Negativo |
 | **Prioridade** | **P1** |
 | **Pré-condições** | Usuário deve estar autenticado e possuir pelo menos um produto adicionado ao carrinho. O usuário deve estar na etapa de informações do Checkout.  |
-| **Passo a Passo** | Acessar a página de login \> Informar credenciais válidas \> Clicar no botão **Login** \> Adicionar um produto ao carrinho \> Acessar o carrinho \> Clicar em **Checkout** \> Informar um valor inválido no campo **First Name** \> Preencher os demais campos obrigatórios com dados válidos \> Tentar avançar para a próxima etapa \> Observar o comportamento apresentado pelo sistema.  |
+| **Passo a Passo** |Acessar a página de login > Informar credenciais válidas > Clicar no botão Login > Adicionar um produto ao carrinho > Acessar o carrinho > Clicar em Checkout > Informar um valor inválido no campo First Name > Preencher os demais campos obrigatórios com dados válidos > Tentar avançar para a próxima etapa > Observar o comportamento apresentado pelo sistema.  |
 | **Resultado esperado** | O sistema deve identificar a entrada inválida no campo **First Name**, impedir o avanço do Checkout e apresentar uma mensagem de validação adequada ao usuário.  |
 | **Resultado obtido** | O sistema identificou a entrada inválida no campo **First Name**, impediu o avanço do Checkout e apresentou a validação correspondente.  |
 | **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce |
