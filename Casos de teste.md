@@ -2,7 +2,7 @@
 saucedemo.com \- Testes Manuais  
 v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 
-## 1  Resumo dos casos de teste  
+## 1.  Resumo dos casos de teste  
    
 
 | ID | Título | Funcionalidade | Tipo de teste | Prioridade |
@@ -33,7 +33,7 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | TC-24 | Gerar PDF do pedido | Contato | Funcional | **P3** |
 | TC-25 | Retornar para Home após finalizar pedido | Navegação | Funcional | **P2** |
 
-2.  Detalhamento dos casos de teste  
+## 2.  Detalhamento dos casos de teste  
  
 
 
