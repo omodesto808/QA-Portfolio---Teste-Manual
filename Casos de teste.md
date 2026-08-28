@@ -200,7 +200,7 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | **Tipo de Cenário** | Negativo  |
 | **Prioridade** | **P2** |
 | **Pré-condições** | Usuário deve estar autenticado no sistema e possuir pelo menos dois produtos adicionados ao carrinho.  |
-| **Passo a Passo** | Acessar a página de login \> Informar credenciais válidas \> Clicar no botão **Login** \> Adicionar dois ou mais produtos ao carrinho \> Acessar o carrinho \> Registrar o valor total apresentado \> Remover um dos produtos \> Verificar o novo valor total apresentado.  |
+| **Passo a Passo** | Acessar a página de login > Informar credenciais válidas > Clicar no botão Login > Acessar o carrinho > Verificar que não existem produtos adicionados > Tentar prosseguir para o Checkout > Observar o comportamento apresentado pelo sistema.  |
 | **Resultado esperado** | O sistema deve remover o produto selecionado e atualizar o valor total do carrinho, subtraindo o valor correspondente ao produto removido.  |
 | **Resultado obtido** | Após a remoção do produto, o valor total do carrinho foi atualizado corretamente, refletindo apenas os produtos restantes.  |
 | **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce |
