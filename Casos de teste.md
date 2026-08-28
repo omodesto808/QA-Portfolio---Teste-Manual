@@ -24,9 +24,9 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | TC-15 | Preencher campo First Name no Checkout | Checkout | Positivo | **P1** |
 | TC-16 | Preencher campo Last Name no Checkout | Checkout | Positivo | **P1** |
 | TC-17 | Preencher campo Zip Code no Checkout | Checkout | Positivo | **P1** |
-| TC-18 | Validar entrada inválida no campo First Name | Checkout | Negativo | **P1** |
-| TC-19 | Validar entrada inválida no campo Last Name | Checkout | Negativo | **P1** |
-| TC-20 | Validar entrada inválida no campo Zip Code | Checkout | Negativo | **P1** |
+| TC-18 | Validar entrada de números e caractéres especiais no campo First Name | Checkout | Negativo | **P1** |
+| TC-19 | Validar entrada de números e caractéres no campo Last Name | Checkout | Negativo | **P1** |
+| TC-20 | Validar entrada de letras e caractéres especiais no campo Zip Code | Checkout | Negativo | **P1** |
 | TC-21 | Avançar para o resumo do pedido | Checkout | Funcional | **P1** |
 | TC-22 | Finalizar pedido | Checkout | Funcional | **P1** |
 | TC-23 | Exibir confirmação após finalizar pedido | Checkout | Funcional | **P1** |
@@ -241,7 +241,7 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | **Resultado obtido** | O campo **Zip Code** aceitou o código postal informado e manteve corretamente o valor inserido.  |
 | **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce |
 
-| TC-18: Validar entrada inválida no campo First Name  |  |
+| TC-18: Validar entrada de  números e caracteres especiais no campo First Name  |  |
 | :---- | :---- |
 | **Funcionalidade** | Checkout |
 | **Tipo de Teste** | Negativo |
@@ -253,7 +253,7 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | **Resultado obtido** | O sistema permite avanço para finalização de compra.  |
 | **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce |
 
-| TC-19:Validar entrada inválida no campo Last Name  |  |
+| TC-19:Validar entrada de números e caracteres especiais no campo Last Name  |  |
 | :---- | :---- |
 | **Funcionalidade** | Checkout |
 | **Tipo de Teste** | Negativo |
@@ -265,7 +265,7 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | **Resultado obtido** | O sistema permite avanço para finalização de compra.  |
 | **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce |
 
-| TC-20: Validar entrada inválida no campo Zip Code  |  |
+| TC-20: Validar entrada de letras e carcteres especiais no campo Zip Code  |  |
 | :---- | :---- |
 | **Funcionalidade** | Checkout |
 | **Tipo de Teste** | Negativo |
