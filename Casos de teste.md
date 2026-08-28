@@ -250,7 +250,7 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | **Pré-condições** | Usuário deve estar autenticado e possuir pelo menos um produto adicionado ao carrinho. O usuário deve estar na etapa de informações do Checkout.  |
 | **Passo a Passo** |Acessar a página de login > Informar credenciais válidas > Clicar no botão Login > Adicionar um produto ao carrinho > Acessar o carrinho > Clicar em Checkout > Informar um valor inválido no campo First Name > Preencher os demais campos obrigatórios com dados válidos > Tentar avançar para a próxima etapa > Observar o comportamento apresentado pelo sistema.  |
 | **Resultado esperado** | O sistema deve identificar a entrada inválida no campo **First Name**, impedir o avanço do Checkout e apresentar uma mensagem de validação adequada ao usuário.  |
-| **Resultado obtido** | O sistema identificou a entrada inválida no campo **First Name**, impediu o avanço do Checkout e apresentou a validação correspondente.  |
+| **Resultado obtido** | O sistema permite avanço para finalização de compra.  |
 | **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce |
 
 | TC-19:Validar entrada inválida no campo Last Name  |  |
@@ -262,7 +262,7 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | **Pré-condições** | Usuário deve estar autenticado e possuir pelo menos um produto adicionado ao carrinho. O usuário deve estar na etapa de informações do Checkout.  |
 | **Passo a Passo** | Acessar a página de login \> Informar credenciais válidas \> Clicar no botão **Login** \> Adicionar um produto ao carrinho \> Acessar o carrinho \> Clicar em **Checkout** \> Informar um valor inválido no campo **Last Name** \> Preencher os demais campos obrigatórios com dados válidos \> Tentar avançar para a próxima etapa \> Observar o comportamento apresentado pelo sistema.  |
 | **Resultado esperado** | O sistema deve identificar a entrada inválida no campo **Last Name**, impedir o avanço do Checkout e apresentar uma mensagem de validação adequada ao usuário.  |
-| **Resultado obtido** | O sistema identificou a entrada inválida no campo **Last Name**, impediu o avanço do Checkout e apresentou a validação correspondente.  |
+| **Resultado obtido** | O sistema permite avanço para finalização de compra.  |
 | **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce |
 
 | TC-20: Validar entrada inválida no campo Zip Code  |  |
@@ -274,7 +274,7 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | **Pré-condições** | Usuário deve estar autenticado e possuir pelo menos um produto adicionado ao carrinho. O usuário deve estar na etapa de informações do Checkout.  |
 | **Passo a Passo** | Acessar a página de login \> Informar credenciais válidas \> Clicar no botão **Login** \> Adicionar um produto ao carrinho \> Acessar o carrinho \> Clicar em **Checkout** \> Informar um valor inválido no campo **Zip Code** \> Preencher os demais campos obrigatórios com dados válidos \> Tentar avançar para a próxima etapa \> Observar o comportamento apresentado pelo sistema.  |
 | **Resultado esperado** | O sistema deve identificar a entrada inválida no campo **Zip Code**, impedir o avanço do Checkout e apresentar uma mensagem de validação adequada ao usuário.  |
-| **Resultado obtido** | O sistema identificou a entrada inválida no campo **Zip Code**, impediu o avanço do Checkout e apresentou a validação correspondente.  |
+| **Resultado obtido** | O sistema permite avanço para finalização de compra.  |
 | **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce |
 
 | TC-21:Avançar para o resumo do pedido  |  |
