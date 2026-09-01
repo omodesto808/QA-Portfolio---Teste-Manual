@@ -19,14 +19,14 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | TC-10 | Remover produto do carrinho | Carrinho | Funcional | **P1** |
 | TC-11 | Exibir produtos adicionados ao carrinho | Carrinho | Funcional | **P1** |
 | TC-12 | Calcular corretamente valor do carrinho | Carrinho | Funcional | **P1** |
-| TC-13 | Atualizar valor do carrinho após remocão de produto | Carrinho | Funcional | **P1** |
+| TC-13 | Atualizar valor do carrinho após remoção de produto | Carrinho | Funcional | **P1** |
 | TC-14 | Seguir para checkout com o carrinho vazio | Carrinho | Negativo | **P2** |
 | TC-15 | Preencher campo First Name no Checkout | Checkout | Positivo | **P1** |
 | TC-16 | Preencher campo Last Name no Checkout | Checkout | Positivo | **P1** |
 | TC-17 | Preencher campo Zip Code no Checkout | Checkout | Positivo | **P1** |
-| TC-18 | Validar entrada de números e caractéres especiais no campo First Name | Checkout | Negativo | **P1** |
-| TC-19 | Validar entrada de números e caractéres no campo Last Name | Checkout | Negativo | **P1** |
-| TC-20 | Validar entrada de letras e caractéres especiais no campo Zip Code | Checkout | Negativo | **P1** |
+| TC-18 | Validar entrada de números e caracteres especiais no campo First Name | Checkout | Negativo | **P1** |
+| TC-19 | Validar entrada de números e caracteres no campo Last Name | Checkout | Negativo | **P1** |
+| TC-20 | Validar entrada de letras e caracteres especiais no campo Zip Code | Checkout | Negativo | **P1** |
 | TC-21 | Avançar para o resumo do pedido | Checkout | Funcional | **P1** |
 | TC-22 | Finalizar pedido | Checkout | Funcional | **P1** |
 | TC-23 | Exibir confirmação após finalizar pedido | Checkout | Funcional | **P1** |
@@ -82,7 +82,7 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | **Pré-condições** | Usuário deve estar autenticado no sistema e na página de produtos.  |
 | **Passo a Passo** | Acessar a página de login \> Informar credenciais válidas \> Clicar no botão **Login** \> Acessar o catálogo de produtos \> Verificar os produtos apresentados na página.  |
 | **Resultado esperado** | O sistema deve exibir corretamente os produtos disponíveis no catálogo, apresentando os itens de forma adequada e permitindo sua visualização pelo usuário.  |
-| **Resultado obtido** | Os produtos foram exibidos corretamente no catálogo, permitindo sua visualização pelo usuário. .  |
+| **Resultado obtido** | Os produtos foram exibidos corretamente no catálogo, permitindo sua visualização pelo usuário.   |
 | **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce |
 
 | TC-05: Exibir nome correto dos produtos |  |
@@ -217,7 +217,7 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | **Resultado obtido** | O campo **First Name** aceitou o nome informado e manteve corretamente o valor inserido.  |
 | **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce |
 
-| TC-16:Preencher campo Last Name no Checkout  |  |
+| TC-16: Preencher campo Last Name no Checkout  |  |
 | :---- | :---- |
 | **Funcionalidade** | Checkout |
 | **Tipo de Teste** | Funcional |
@@ -253,7 +253,7 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | **Resultado obtido** | O sistema permite avanço para finalização de compra.  |
 | **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce |
 
-| TC-19:Validar entrada de números e caracteres especiais no campo Last Name  |  |
+| TC-19: Validar entrada de números e caracteres especiais no campo Last Name  |  |
 | :---- | :---- |
 | **Funcionalidade** | Checkout |
 | **Tipo de Teste** | Negativo |
@@ -265,7 +265,7 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | **Resultado obtido** | O sistema permite avanço para finalização de compra.  |
 | **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce |
 
-| TC-20: Validar entrada de letras e carcteres especiais no campo Zip Code  |  |
+| TC-20: Validar entrada de letras e caracteres especiais no campo Zip Code  |  |
 | :---- | :---- |
 | **Funcionalidade** | Checkout |
 | **Tipo de Teste** | Negativo |
