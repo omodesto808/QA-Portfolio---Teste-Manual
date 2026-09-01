@@ -55,7 +55,7 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | **Tipo de Teste** | Negativo |
 | **Tipo de Cenário** | Negativo |
 | **Prioridade** | **P1** |
-| **Pré-condições** | Usuário bloqueado deve estar disponível para utilização no ambiente de teste. O tester deve estar na página de login.   |
+| **Pré-condições** | O tester deve estar na página de login e inserir dados invalidos de login e senha.   |
 | **Passo a Passo** | Acessar a página de login \> Informar usuário inexistente \> Clicar no botão **Login** \> Observar o comportamento apresentado pelo sistema.  |
 | **Resultado esperado** | O sistema deve impedir a autenticação do usuário inexistente e exibir uma mensagem informando que o usuário não possui permissão para realizar o login |
 | **Resultado obtido** | O sistema impediu o acesso do usuário e apresentou uma mensagem informando que os dados são inválidos |
@@ -199,7 +199,7 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | **Tipo de Teste** | Negativo |
 | **Tipo de Cenário** | Negativo  |
 | **Prioridade** | **P2** |
-| **Pré-condições** | Usuário deve estar autenticado no sistema e possuir pelo menos dois produtos adicionados ao carrinho.  |
+| **Pré-condições** | Usuário deve estar autenticado no sistema e não possuir nenhum produto adicionado ao carrinho.  |
 | **Passo a Passo** | Acessar a página de login > Informar credenciais válidas > Clicar no botão Login > Acessar o carrinho > Verificar que não existem produtos adicionados > Tentar prosseguir para o Checkout > Observar o comportamento apresentado pelo sistema.  |
 | **Resultado esperado** | O sistema deve impedir o avanço para o Checkout quando o carrinho estiver vazio e apresentar uma mensagem ou comportamento indicando que é necessário adicionar pelo menos um produto antes de prosseguir.  |
 | **Resultado obtido** | Mesmo com o carrinho vazio, o sistema permite avançar para a finalização do pedido sem nenhum aviso ou mensagem de erro  |
@@ -215,7 +215,7 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | **Passo a Passo** | Acessar a página de login \> Informar credenciais válidas \> Clicar no botão **Login** \> Adicionar um produto ao carrinho \> Acessar o carrinho \> Clicar em **Checkout** \> Informar um nome válido no campo **First Name** \> Verificar o valor inserido no campo.  |
 | **Resultado esperado** | O sistema deve permitir o preenchimento do campo **First Name** com um nome válido e manter corretamente a informação inserida.  |
 | **Resultado obtido** | O campo **First Name** aceitou o nome informado e manteve corretamente o valor inserido.  |
-| **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce |
+| **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce - First Name: Matheus |
 
 | TC-16: Preencher campo Last Name no Checkout  |  |
 | :---- | :---- |
@@ -227,7 +227,7 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | **Passo a Passo** | Acessar a página de login \> Informar credenciais válidas \> Clicar no botão **Login** \> Adicionar um produto ao carrinho \> Acessar o carrinho \> Clicar em **Checkout** \> Informar um sobrenome válido no campo **Last Name** \> Verificar o valor inserido no campo.  |
 | **Resultado esperado** | O sistema deve permitir o preenchimento do campo **Last Name** com um sobrenome válido e manter corretamente a informação inserida.  |
 | **Resultado obtido** | O campo **Last Name** aceitou o sobrenome informado e manteve corretamente o valor inserido.  |
-| **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce |
+| **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce - Last Name: Modesto |
 
 | TC-17 — Preencher campo Zip Code no Checkout |  |
 | :---- | :---- |
@@ -239,7 +239,7 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | **Passo a Passo** | Acessar a página de login \> Informar credenciais válidas \> Clicar no botão **Login** \> Adicionar um produto ao carrinho \> Acessar o carrinho \> Clicar em **Checkout** \> Informar um código postal válido no campo **Zip Code** \> Verificar o valor inserido no campo.  |
 | **Resultado esperado** | O sistema deve permitir o preenchimento do campo **Zip Code** com um código postal válido e manter corretamente a informação inserida.  |
 | **Resultado obtido** | O campo **Zip Code** aceitou o código postal informado e manteve corretamente o valor inserido.  |
-| **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce |
+| **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce - ZipCode 11111111 (fictício porém factível) |
 
 | TC-18: Validar entrada de  números e caracteres especiais no campo First Name  |  |
 | :---- | :---- |
@@ -251,7 +251,7 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | **Passo a Passo** |Acessar a página de login > Informar credenciais válidas > Clicar no botão Login > Adicionar um produto ao carrinho > Acessar o carrinho > Clicar em Checkout > Informar um valor inválido no campo First Name > Preencher os demais campos obrigatórios com dados válidos > Tentar avançar para a próxima etapa > Observar o comportamento apresentado pelo sistema.  |
 | **Resultado esperado** | O sistema deve identificar a entrada inválida no campo **First Name**, impedir o avanço do Checkout e apresentar uma mensagem de validação adequada ao usuário.  |
 | **Resultado obtido** | O sistema permite avanço para finalização de compra.  |
-| **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce |
+| **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce - First Name: 123|
 
 | TC-19: Validar entrada de números e caracteres especiais no campo Last Name  |  |
 | :---- | :---- |
@@ -263,7 +263,7 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | **Passo a Passo** | Acessar a página de login \> Informar credenciais válidas \> Clicar no botão **Login** \> Adicionar um produto ao carrinho \> Acessar o carrinho \> Clicar em **Checkout** \> Informar um valor inválido no campo **Last Name** \> Preencher os demais campos obrigatórios com dados válidos \> Tentar avançar para a próxima etapa \> Observar o comportamento apresentado pelo sistema.  |
 | **Resultado esperado** | O sistema deve identificar a entrada inválida no campo **Last Name**, impedir o avanço do Checkout e apresentar uma mensagem de validação adequada ao usuário.  |
 | **Resultado obtido** | O sistema permite avanço para finalização de compra.  |
-| **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce |
+| **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce - Last Name: 4 |
 
 | TC-20: Validar entrada de letras e caracteres especiais no campo Zip Code  |  |
 | :---- | :---- |
@@ -275,7 +275,7 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | **Passo a Passo** | Acessar a página de login \> Informar credenciais válidas \> Clicar no botão **Login** \> Adicionar um produto ao carrinho \> Acessar o carrinho \> Clicar em **Checkout** \> Informar um valor inválido no campo **Zip Code** \> Preencher os demais campos obrigatórios com dados válidos \> Tentar avançar para a próxima etapa \> Observar o comportamento apresentado pelo sistema.  |
 | **Resultado esperado** | O sistema deve identificar a entrada inválida no campo **Zip Code**, impedir o avanço do Checkout e apresentar uma mensagem de validação adequada ao usuário.  |
 | **Resultado obtido** | O sistema permite avanço para finalização de compra.  |
-| **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce |
+| **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce - ZipCode - asdsa|
 
 | TC-21:Avançar para o resumo do pedido  |  |
 | :---- | :---- |
