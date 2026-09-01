@@ -60,7 +60,7 @@ A análise dos resultados identificou **5 defeitos distintos**:
 | BUG-02 | Catálogo | Descrição incorreta do item Backpack |
 | BUG-03 | Carrinho / Checkout | Checkout permitido com carrinho vazio  |
 | BUG-04 | Checkout | First Name e Last Name aceitam entradas inválidas  |
-| BUG0-5 | Checkout | Zip Code aceita entradas inválidas  |
+| BUG-05 | Checkout | Zip Code aceita entradas inválidas  |
 
 ## **6\. Distribuição dos Resultados**
 
