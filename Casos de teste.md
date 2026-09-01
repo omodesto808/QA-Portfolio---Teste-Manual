@@ -201,7 +201,7 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | **Prioridade** | **P2** |
 | **Pré-condições** | Usuário deve estar autenticado no sistema e possuir pelo menos dois produtos adicionados ao carrinho.  |
 | **Passo a Passo** | Acessar a página de login > Informar credenciais válidas > Clicar no botão Login > Acessar o carrinho > Verificar que não existem produtos adicionados > Tentar prosseguir para o Checkout > Observar o comportamento apresentado pelo sistema.  |
-| **Resultado esperado** | O sistema deve remover o produto selecionado e atualizar o valor total do carrinho, subtraindo o valor correspondente ao produto removido.  |
+| **Resultado esperado** | O sistema deve impedir o avanço para o Checkout quando o carrinho estiver vazio e apresentar uma mensagem ou comportamento indicando que é necessário adicionar pelo menos um produto antes de prosseguir.  |
 | **Resultado obtido** | Mesmo com o carrinho vazio, o sistema permite avançar para a finalização do pedido sem nenhum aviso ou mensagem de erro  |
 | **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce |
 
