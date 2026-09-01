@@ -12,7 +12,7 @@ Durante a execução dos 25 casos de teste, foram identificados 7 casos com falh
 
 | ID | Título | Casos Relacionados | Funcionalidade | Status |
 | :---- | :---- | :---- | :---- | :---- |
-| BUG-01 | Nome incorreto da Camisa Vermelha no catálogo | TC-04 / TC-05 | Exibição de produtos | Aberto |
+| BUG-01 | Nome incorreto do item "Red T-Shirt" no catálogo | TC-04 / TC-05 | Exibição de produtos | Aberto |
 | BUG-02 | Descrição incorreta de produto no catálogo | TC-04 / TC-06 | Exibição de produtos | Aberto |
 | BUG-03 | Checkout permitido com carrinho vazio | TC-14 | Carrinho / Checkout | Aberto |
 | BUG-04 | Campos First Name e Last Name aceitam entradas inválidas  | TC-18 / TC-19 | Checkout | Aberto |
@@ -39,7 +39,7 @@ Durante a execução dos 25 casos de teste, foram identificados 7 casos com falh
 | **Status** | Aberto |
 | **Severidade** | Baixa |
 | **Prioridade** | **P2** |
-| **Passo a Passo para reprodução do bug** | 1\. Acessar o catálogo de produtos. 2\. Localizar o produto em questão. 3\. Verificar a descrição apresentada para p produto.  |
+| **Passo a Passo para reprodução do bug** | 1\. Acessar o catálogo de produtos. 2\. Localizar o produto em questão. 3\. Verificar a descrição apresentada para o produto.  |
 
 | BUG-03: Checkout permitido com carrinho vazio |  |
 | :---- | :---- |
