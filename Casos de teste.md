@@ -59,7 +59,7 @@ v1.0 \- Autor: Matheus Ribeiro Modesto \- 08/08/2026
 | **Passo a Passo** | Acessar a página de login \> Informar usuário inexistente \> Clicar no botão **Login** \> Observar o comportamento apresentado pelo sistema.  |
 | **Resultado esperado** | O sistema deve impedir a autenticação do usuário inexistente e exibir uma mensagem informando que o usuário não possui permissão para realizar o login |
 | **Resultado obtido** | O sistema impediu o acesso do usuário e apresentou uma mensagem informando que os dados são inválidos |
-| **Massa de dados:** | Usuário: standard\_user \- Senha: secret\_sauce |
+| **Massa de dados:** | Usuário: invalid\_user \- Senha: 123 |
 
 | TC-03: Realizar logout do sistema |  |
 | :---- | :---- |
